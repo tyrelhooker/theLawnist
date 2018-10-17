@@ -1,11 +1,11 @@
-const submit = document.getElementByClass('.submit');
+const submit = document.querySelector('.submit');
 submit.addEventListener('click', function(e) {
   e.preventDefault();
   var newPlant = {
-    commonName: document.getElementById('plant-common-name').val().trim(),
-    scientificName: document.getElementById('plant-scientific-name').val().trim(),
-    fertilizeDate: document.getElementById('plant-fertilize-date').val().trim(),
-    trimDate: document.getElementById('plant-trim-date').val().trim(),
+    commonName: document.getElementById('plant-common-name').value.trim(),
+    scientificName: document.getElementById('plant-scientific-name').value.trim(),
+    fertilizeDate: document.getElementById('plant-fertilize-date').value.trim(),
+    pruneDate: document.getElementById('plant-trim-date').value.trim(),
   };
   console.log(newPlant);
 

@@ -1,9 +1,10 @@
 // This data array holds the planted yard plants
 var plantedPlants = [
   {
-    plantName: 'fescue',
-    fertilizeSeason: 'fall',
-    trim: 'after 2 inches',
+    commonName: 'fescue',
+    scientificName: 'fescuvious',
+    fertilizeDate: 'fall',
+    pruneDate: 'after 2 inches',
   }
 ];
 
