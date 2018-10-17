@@ -21,3 +21,42 @@
           <a href='/'><button class='btn btn-lg btn-primary'><span class='fa fa-home'></span>Home</button></a>
         </div>
       </div>
+      <div class='row'>
+        <div class='col-lg-12'>
+          <div class='panel panel-default'>
+            <div class='panel-heading'>
+              <h4 class='panel-title'>Plant a new Plant?</h4>
+            </div>
+            <div class='panel-body'>
+              <form role='form'>
+                <div class='form-group'>
+                  <label for='plant-common-name'>Common Plant Name</label>
+                  <input type='text' class='form-control' id='plant-common-name'>
+                </div>
+                <div class='form-group'>
+                  <label for='plant-scientific-name'>Scientific Plant Name</label>
+                  <input type='text' class='form-control' id='plant-scientific-name'>
+                </div>
+                <div class='form-group'>
+                  <label for='plant-fertilize-date'>Best Time to Fertilize </label>
+                  <input type='text' class='form-control' id='plant-fertilize-date'>
+                </div>
+                <div class='form-group'>
+                  <label for='plant-trim-date'>Best Time to Prune</label>
+                  <input type='text' class='form-control' id='plant-trim-date'>
+                </div>
+                <button type='submit' class='btn btn-primary submit'>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class='footer'>
+        <div class='container'>
+          <p><a href='/api/plantedPlants'>API Planted Plants Link</a></p>
+        </div>
+      </footer>
+    </div>
+    <script src='app.js'></script>
+  </body>
+</html>
